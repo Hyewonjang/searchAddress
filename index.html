@@ -11,8 +11,8 @@
         $(document).ready(function(){
             $('#find-btn').click(function(){
                 alert('주소찾기클릭')
-            new daum.Postcode({
-                oncomplete: function(data) {//완료됐을 떄, 검색결과 클릭하면
+                new daum.Postcode({
+                    oncomplete: function(data) {//완료됐을 떄, 검색결과 클릭하면
                         //data는 객체고 이 안에 내용을 뽑아낸다.
                         //data.zonecode - 우편주소
                         //data.address - 기본주소
